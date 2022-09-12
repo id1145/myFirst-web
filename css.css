@@ -1,0 +1,92 @@
+body {
+  /* 这个不用多说 */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background-image: url(./jpg.jpg);
+  background-size: cover;
+  flex-flow: wrap;
+}
+.sskbox {
+  /* 搜索框盒子 */
+  width: 50vw;
+  position: absolute;
+  margin-top: 15vh;
+  height: 7vh;
+  border-radius: 100vh;
+  z-index: 1;
+}
+.ssk {
+  /* 搜索框 */
+  background-color: rgb(255, 255, 255);
+  border: 3px solid white;
+  border-radius: 100vh;
+  height: 7vh;
+  font-size: 4vh;
+  width: 50vw;
+  outline-style: none;
+  padding: 3vh;
+}
+.abox {
+  /* 菜单栏大盒子 */
+  width: 100vw;
+  display: flex;
+  padding: 7vh;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* 菜单栏小盒子 */
+.caidan {
+  width: 7vh;
+  height: 7vh;
+  border: 2px solid white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.heng {
+  width: 5vh;
+  background-color: aliceblue;
+  height: 0.5vh;
+  /* 横 */
+}
+.png {
+  /* 图片 */
+  height: 50px;
+}
+/* 设置栏 */
+.cai1 {
+  margin-top: -43vh;
+  background-color: rgba(255, 255, 255, 0.548);
+  width: 15vw;
+  height: 30vh;
+  border-radius: 10px;
+  flex-flow: wrap;
+  padding: 2vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  z-index: 2;
+}
+/* 设置栏 */
+.cai2 {
+  margin-top: -46vh;
+  background-color: rgba(255, 255, 255, 0.548);
+  width: 15vw;
+  height: 30vh;
+  border-radius: 10px;
+  flex-flow: wrap;
+  padding: 2vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  display: none;
+  z-index: 2;
+}
